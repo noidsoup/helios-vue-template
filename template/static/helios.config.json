@@ -1,0 +1,26 @@
+{
+  "production": {
+    "crow": {
+      "url": "https://localreach.heliossf.com:5000",
+      "application": "Helios - Vue App",
+      "devMode": false
+    },
+    "timeout": {
+      "enabled": true,
+      "timeUntilAppear": 10000,
+      "timeUntilDismiss": 10000
+    }
+  },
+  "development": {
+    "crow": {
+      "url": "https://localreach.heliossf.com:5000",
+      "application": "Helios - Vue App",
+      "devMode": true
+    },
+    "timeout": {
+      "enabled": false,
+      "timeUntilAppear": 10000,
+      "timeUntilDismiss": 10000
+    }
+  }
+}
