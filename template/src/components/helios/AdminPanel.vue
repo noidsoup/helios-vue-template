@@ -3,10 +3,10 @@
     <div class="helios-background"></div>
     <div class="helios-header underline">Dashboard</div>
     <div class="helios-header small">
-      Version: {{ version }}
+      Version: \{{ version }}
     </div>
     <div class="helios-header small">
-     NODE_ENV: {{ env }}
+     NODE_ENV: \{{ env }}
     </div>
     <div class="helios-header small">
      Config:
@@ -15,7 +15,7 @@
       v-if="!requirePassphrase || !passphraseExists || requirePassphrase && passphraseAccepted"
       class="config-printout"
     >
-{{ configJson }}
+\{{ configJson }}
     </div>
     <div class="home" @click="toHome">Home</div>
   </div>

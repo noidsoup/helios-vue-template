@@ -3,7 +3,7 @@ import Router from 'vue-router';
 
 import Sample from '@/components/helios/Sample';
 import SampleTimeout from '@/components/helios/SampleTimeout';
-import SampleKeyboard from '@/components/helios/SampleKeyboard';
+{{#okey}}import SampleKeyboard from '@/components/helios/SampleKeyboard';{{/okey}}
 import SampleLoadingUsage from '@/components/helios/SampleLoadingUsage';
 
 import AdminPanel from '@/components/helios/AdminPanel';
@@ -22,11 +22,13 @@ export default new Router({
       name: 'SampleTimeout',
       component: SampleTimeout,
     },
+    {{#okey}}
     {
       path: '/sample-keyboard',
       name: 'SampleKeyboard',
       component: SampleKeyboard,
     },
+    {{/okey}}
     {
       path: '/sample-loading',
       name: 'SampleLoadingUsage',

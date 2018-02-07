@@ -58,8 +58,8 @@ module.exports = {
         loader: 'babel-loader',
         include: [
           resolve('src'),
-          resolve('test'),
-          path.join(__dirname, '..', 'node_modules', '@helios-interactive', 'reachjs')
+          resolve('test'){{#reach}},
+          path.join(__dirname, '..', 'node_modules', '@helios-interactive', 'reachjs'){{/reach}}
         ],
       },
       {

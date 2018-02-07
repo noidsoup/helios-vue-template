@@ -14,7 +14,26 @@
     "author": {
       "type": "string",
       "label": "Author"
+    },
+    "reach": {
+      "type": "confirm",
+      "message": "include reach?",
+      "default": false
+    },
+    "crow": {
+      "type": "confirm",
+      "message": "use crow?",
+      "default": false
+    },
+    "okey": {
+      "type": "confirm",
+      "message": "use okey?",
+      "default": false
     }
+  },
+  "filters": {
+    "src/components/helios/Keyboard.vue": "okey",
+    "src/components/helios/SampleKeyboard.vue": "okey"
   },
   "completeMessage": "{{#inPlace}}To get started:\n\n  npm install\n  npm run dev{{else}}To get started:\n\n  cd {{destDirName}}\n  npm install\n  npm run dev{{/inPlace}}"
 }

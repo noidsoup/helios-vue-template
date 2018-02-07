@@ -4,7 +4,7 @@
       Sample of keyboard
     </div>
     <input class="sample-input" type="text" v-model="input">
-    <div class="helios-header">Output: {{ input }}</div>
+    <div class="helios-header">Output: \{{ input }}</div>
     <keyboard></keyboard>
   </div>
 </template>

@@ -4,7 +4,7 @@
     <img src="/static/images/icons/ms-icon-310x310.png" alt="">
     <div class="links">
       <a href="/#/sample-timeout">Sample Timeout</a>
-      <a href="/#/sample-keyboard">Sample Keyboard</a>
+      {{#okey}}<a href="/#/sample-keyboard">Sample Keyboard</a>{{/okey}}
       <a href="/#/sample-loading">Sample Loading</a>
       <a href="/#/admin">Admin</a>
     </div>

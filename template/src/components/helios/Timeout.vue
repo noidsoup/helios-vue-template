@@ -3,9 +3,9 @@
 <template>
   <div class="timeout-container" v-if="timedout" @click.stop @touchstart.stop @touchend.stop>
     <div class="timeout-card">
-      <div class="text">{{ timeoutCTA }}</div>
-      <div class="timer">{{ remaining }}</div class="timer">
-      <div class="text">{{ timeoutContinue }}</div>
+      <div class="text">\{{ timeoutCTA }}</div>
+      <div class="timer">\{{ remaining }}</div class="timer">
+      <div class="text">\{{ timeoutContinue }}</div>
     </div>
   </div>
 </template>
